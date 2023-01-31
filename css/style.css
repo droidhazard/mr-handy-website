@@ -1,0 +1,36 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  transition: all .3s ease-out;
+}
+
+:root {
+  --orange: #ff4c01;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  /* font-size: 62.5%; */
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.navbar-brand img {
+  width: 150px;
+  margin-left: 10px;
+}
+
+.link-orange:hover {
+  color: var(--orange) !important;
+}
