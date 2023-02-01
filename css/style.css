@@ -37,6 +37,14 @@ body {
   color: #9b9b9b;
 }
 
+.color-text-orange {
+  color: var(--orange);
+}
+
+.color-text-white {
+  color: #fff;
+}
+
 .navbar-brand img {
   width: 150px;
   margin-left: 10px;
@@ -87,9 +95,20 @@ body {
   background-blend-mode: multiply;
 }
 
+.pricing-section {
+  padding: 50px;
+}
+
 .worker-icon {
   width: 60px;
   margin-bottom: 20px;
+}
+
+.services-section {
+  background-image: linear-gradient(to left, #2a2a2a, #2a2a2a), url(../img/electric-row-bg3.jpg);
+  background-blend-mode: multiply;
+  height: 100vh;
+  padding: 50px;
 }
 
 
