@@ -33,6 +33,10 @@ body {
   font-family: 'Cabin';
 }
 
+.color-text-grey {
+  color: #9b9b9b;
+}
+
 .navbar-brand img {
   width: 150px;
   margin-left: 10px;
@@ -83,6 +87,10 @@ body {
   background-blend-mode: multiply;
 }
 
+.worker-icon {
+  width: 60px;
+  margin-bottom: 20px;
+}
 
 
 
