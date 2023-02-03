@@ -121,7 +121,38 @@ body {
   padding: 50px;
 }
 
+.form-section {
+  padding: 100px;
+}
 
+.col-testimonial {
+  background-image: linear-gradient(to left, #ff4d01d0, #ff4c01d6), url(../img/single-image-09.jpg);
+  /* background-blend-mode: multiply; */
+  background-size: cover;
+  background-position: top;
+  /* padding: 50px; */
+}
+
+.testimonial-profile {
+  display: flex;
+  align-items: flex-end;
+  margin: 50px 0;
+}
+
+.testimonial-user-image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  padding: 5px;
+  border: 2px solid whitesmoke;
+  box-sizing: content-box;
+  margin-right: 20px;
+}
+
+.phone-box {
+  display: flex;
+  align-items: flex-end;
+}
 
 
 
