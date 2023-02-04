@@ -186,6 +186,16 @@ body {
   width: 100%;
 }
 
+.quick-link {
+  display: block !important;
+  margin: 15px 0;
+  border: none;
+}
+
+.quick-link i {
+  margin-right: 10px;
+}
+
 
 
 /*  */
