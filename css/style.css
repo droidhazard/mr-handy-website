@@ -240,4 +240,8 @@ body {
     padding: 10px;
     padding-top: 100px;
   }
+
+  .form-section {
+    padding: 0;
+  }
 }
