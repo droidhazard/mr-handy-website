@@ -6,11 +6,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  transition: all 0.3s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 :root {
   --orange: #ff4c01;
+  --footer-bg: #2b2b2b;
 }
 
 ::selection {
@@ -152,6 +153,37 @@ body {
 .phone-box {
   display: flex;
   align-items: flex-end;
+}
+
+.footer {
+  background-color: var(--footer-bg);
+  padding: 35px 50px 50px;
+}
+
+.footer-social-icon {
+  background-color: #4f4f4f;
+  font-size: 15px;
+  margin: 5px;
+  color: #9b9b9b;
+}
+
+.footer-top-link {
+  color: #9b9b9b;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0 10px;
+  border-right: 1px solid #9b9b9b;
+}
+
+.footer-top-link:hover {
+  color: var(--orange);
+}
+
+.hr-1px-grey {
+  margin-top: 30px;
+  height: 1px;
+  background-color: #444444;
+  width: 100%;
 }
 
 
